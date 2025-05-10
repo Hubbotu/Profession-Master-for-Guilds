@@ -141,7 +141,7 @@ function LocalesModel:Create()
             ["AllDataPurged"] = "Alle Daten wurden gelöscht",
             ["CharacterPurged"] = "Daten von %s wurden gelöscht"
         },
-        -- define ruRU locale
+        -- ruRU locale ZamestoTV
         ["ruRU"] = {
             -- general
             ["AddonLoaded"] = "v" .. addon.version .. " поддерживается Okara@Nightslayer. Используйте |cffDA8CFF/pm help|r для дополнительной информации.",
@@ -168,12 +168,12 @@ function LocalesModel:Create()
 
             -- minimap button
             ["MinimapButtonTitle"] = addon.shortcut .. addon.name,
-            ["MinimapButtonLeftClick"] = "|cff999999Левый клик:|cffffffff Показать обзор|r",
-            ["MinimapButtonRightClick"] = "|cff999999Правый клик:|cffffffff Показать/скрыть недостающие реагенты|r",
-            ["MinimapButtonShiftRightClick"] = "|cff999999Shift + правый клик:|cffffffff Скрыть кнопку на миникарте|r",
+            ["MinimapButtonLeftClick"] = "|cff999999ЛКМ:|cffffffff Показать обзор|r",
+            ["MinimapButtonRightClick"] = "|cff999999ПКМ:|cffffffff Показать/скрыть недостающие реагенты|r",
+            ["MinimapButtonShiftRightClick"] = "|cff999999Shift + ПКМ:|cffffffff Скрыть кнопку на миникарте|r",
 
             -- profession view
-            ["ProfessionsViewTitle"] = "Мастер профессий - Обзор",
+            ["ProfessionsViewTitle"] = "Profession Master - Обзор",
             ["ProfessionsViewProfession"] = "Профессия",
             ["ProfessionsViewAllProfessions"] = "Все профессии",
             ["ProfessionsViewAddon"] = "Аддон",
@@ -185,7 +185,7 @@ function LocalesModel:Create()
             ["ProfessionsViewBucketList"] = "Список покупок",
             ["ProfessionsViewReagentsForBucketList"] = "Реагенты для списка покупок",
             ["ProfessionsViewNotOnBucketList"] = "Прочее",
-            ["ProfessionsViewFooter"] = "|cffDA8CFFЛевый клик: |cffffffffПоказать детали / Добавить в список покупок.   |cffDA8CFFShift + левый клик: |cffffffffСкопировать ссылку в текстовый чат.",
+            ["ProfessionsViewFooter"] = "|cffDA8CFFЛКМ: |cffffffffПоказать детали / Добавить в список покупок.   |cffDA8CFFShift + ЛКМ: |cffffffffСкопировать ссылку в текстовый чат.",
 
             -- skill view
             ["SkillViewPlayers"] = "Игроки",
